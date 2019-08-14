@@ -1,7 +1,7 @@
 /* Typography */
 
 html {
-	font-family: 'Sue Ellen Francisco', 'Open Sans';
+	font-family: 'Source Sans Pro';
 }
 
 @media (min-width: 576px) {
@@ -44,12 +44,13 @@ main {
 }
 
 main > .intro {
-	font-family: 'Sue Ellen Francisco', 'Open Sans';
+	font-family: 'Sue Ellen Francisco', 'Source Sans Pro';
 	font-size: 3.75em;
 	font-weight: 600;
 }
 
 main > .tagline {
+	font-family: 'Source Sans Pro';
 	font-size: 1.5rem;
 	margin: 1.5rem 0;
 	font-weight: 100;
