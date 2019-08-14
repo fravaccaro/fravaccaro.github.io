@@ -52,7 +52,7 @@ main > .intro {
 main > .tagline {
 	font-family: 'Source Sans Pro';
 	font-size: 1.5rem;
-	margin: 1.5rem 0;
+	margin: 0 0 1.5rem 0;
 	font-weight: 100;
 }
 
