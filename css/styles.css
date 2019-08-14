@@ -60,9 +60,8 @@ main > .text {
 	font-family: 'Source Sans Pro';
 	font-size: 1rem;
 	width: 75vw;
-	margin: 1.5rem 0;
+	margin: auto 1.5rem 0;
 	text-align: center;
-	display: inline-bloc;
 }
 
 .icons-social i {
