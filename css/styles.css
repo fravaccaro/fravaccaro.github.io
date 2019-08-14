@@ -56,6 +56,12 @@ main > .tagline {
 	font-weight: 100;
 }
 
+main > .text {
+	font-family: 'Source Sans Pro';
+	font-size: 1rem;
+	margin: 1.5rem 0;
+}
+
 .icons-social i {
 	padding: 10px;
 }
