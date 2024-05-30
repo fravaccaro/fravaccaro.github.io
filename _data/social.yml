@@ -1,29 +1,23 @@
-- name: facebook
-  url: https://www.facebook.com/example
-  icon: ri:facebook-fill
-  color: '#1877F2'
+- name: github
+  url: https://github.com/fravaccaro
+  icon: ri:github-fill
 
 - name: instagram
-  url: https://www.instagram.com/example
+  url: https://instagram.com/itsamefra
   icon: ri:instagram-fill
-  color: '#E4405F'
 
-- name: x
-  url: https://x.com/example
-  icon: ri:twitter-x-fill
-  color: '#1D9BF0'
+- name: linkedin
+  url: https://www.linkedin.com/in/fravaccaro
+  icon: ri:linkedin-fill
 
 - name: mastodon
-  url: https://mastodon.social/@example
+  url: https://mastodon.social/@itsamecthulhu
   icon: ri:mastodon-fill
-  color: '#6364FF'
 
-- name: whatsapp
-  url: https://wa.me/1XXXXXXXXXX
-  icon: ri:whatsapp-fill
-  color: '#25D366'
-
+- name: wordpress
+  url: https://fravaccaro.wordpress.com
+  icon: ri:wordpress-fill
+  
 - name: youtube
   url: https://www.youtube.com/@example
   icon: ri:youtube-fill
-  color: '#FF0000'
