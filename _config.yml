@@ -5,7 +5,7 @@ remote_theme: digitalmalayali/linkhub-jekyll-theme
 # Site Configuration
 name: francesco  # Name of your website
 tagline: Links  # Set your preferred page title
-description: A free, open-source Jekyll link-in-bio theme.  # Also used as a meta description
+description: just mix life-long passion for everything IT, add genuine curiosity and season it with love for facing challenges and finding a way around them.  # Also used as a meta description
 favicon:
   path: assets/avatar.jpeg # Path / URL to the favicon of your website (e.g., 'assets/images/favicon.png')
   type: jpeg # File format of image. Change according to your image. Supported types: https://developer.mozilla.org/en-US/docs/Web/Media/Formats/Image_types
