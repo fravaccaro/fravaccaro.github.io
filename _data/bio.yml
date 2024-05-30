@@ -1,10 +1,10 @@
 - name: instagram
   items:
     - url: https://www.instagram.com/p/CTI8ahMo4U1/
-      image: https://instagram.fqlf1-2.fna.fbcdn.net/v/t51.29350-15/240808809_308872341035899_2768931230466642811_n.jpg?stp=dst-jpg_e35_s320x320&_nc_ht=instagram.fqlf1-2.fna.fbcdn.net&_nc_cat=107&_nc_ohc=-GXvsuKDMksQ7kNvgGXltWV&edm=AGenrX8BAAAA&ccb=7-5&oh=00_AYAuk7lSWI6Ko9KzvpvMitOytdpxndhZcQfXkWqThcQmCQ&oe=665E5FC6&_nc_sid=ed990e
+      image: assets/images/1.jpeg
+      
+    - url: https://www.instagram.com/p/Bmqn66iF25r/
+      image: assets/images/2.jpeg
 
-    - url: https://www.example.org
-      image: https://picsum.photos/500.webp
-
-    - url: https://www.example.com
-      image: https://picsum.photos/250/300.webp
+    - url: https://www.instagram.com/p/thm_nbsg9x/
+      image: assets/images/3.jpeg
