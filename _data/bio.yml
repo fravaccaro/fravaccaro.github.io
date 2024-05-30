@@ -1,19 +1,8 @@
-- name: YouTube Shorts
-  ratio: vertical # For vertical 9:16 aspect ratio. Ideal for video thumbnails, such as those used on Instagram Reels, YouTube Shorts and TikTok. To use the default 1:1 aspect ratio (square), remove this variable.
+- name: instagram
   items:
     - url: https://www.example.com
-      image: https://picsum.photos/1080/920.webp
-
-    - url: https://www.example.org
-      image: https://picsum.photos/540/960.webp
-
-    - url: https://www.example.com
-      image: https://picsum.photos/720/1280.webp
-
-- name: Instagram
-  items:
-    - url: https://www.example.com
-      image: https://picsum.photos/700/400.webp # You can use paths to images in the assets folder, e.g., assets/images/insta.jpg.
+      image: 
+https://scontent.cdninstagram.com/v/t51.29350-15/240808809_308872341035899_2768931230466642811_n.jpg?stp=dst-jpg_e35&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDEwODAuc2RyLmYyOTM1MCJ9&_nc_ht=scontent.cdninstagram.com&_nc_cat=107&_nc_ohc=-GXvsuKDMksQ7kNvgHWTX3l&edm=APs17CUBAAAA&ccb=7-5&ig_cache_key=MjY1MDYzNDA4NTg1MDEyMTUyNQ%3D%3D.2-ccb7-5&oh=00_AYD64BGBDOPxDtV_ZTO3QF20Sb10G5i7bWw75NAIgtxzVg&oe=665E5FC6&_nc_sid=10d13b # You can use paths to images in the assets folder, e.g., assets/images/insta.jpg.
 
     - url: https://www.example.org
       image: https://picsum.photos/500.webp
