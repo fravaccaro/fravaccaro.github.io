@@ -1,5 +1,6 @@
 # Jekyll
-theme: linkhub-jekyll-theme
+#theme: linkhub-jekyll-theme
+remote_theme: digitalmalayali/linkhub-jekyll-theme
 
 # Site Configuration
 name: francesco  # Name of your website
