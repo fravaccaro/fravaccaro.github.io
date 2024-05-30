@@ -1,10 +1,10 @@
 - name: instagram
   items:
     - url: https://www.instagram.com/p/CTI8ahMo4U1/
-      image: assets/1.jpeg
+      image: assets/pic1.jpeg
       
     - url: https://www.instagram.com/p/Bmqn66iF25r/
-      image: assets/2.jpeg
+      image: assets/pic2.jpeg
 
     - url: https://www.instagram.com/p/thm_nbsg9x/
-      image: assets/3.jpeg
+      image: assets/pic3.jpeg
