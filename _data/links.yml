@@ -1,7 +1,7 @@
 fixed-button-width: true # Set to true/false
 icon-position: left # Set to left/right
 buttons:
-  - category: Blogs
+#  - category: Blogs
     items:
     - title: github
       url: https://github.com/fravaccaro
