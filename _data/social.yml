@@ -1,14 +1,6 @@
-- name: github
-  url: https://github.com/fravaccaro
-  icon: ri:github-fill
-
 - name: instagram
   url: https://instagram.com/itsamefra
   icon: ri:instagram-fill
-
-- name: linkedin
-  url: https://www.linkedin.com/in/fravaccaro
-  icon: ri:linkedin-fill
 
 - name: mastodon
   url: https://mastodon.social/@itsamecthulhu
