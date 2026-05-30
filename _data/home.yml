@@ -6,13 +6,17 @@ navbar_entries:
     url: https://github.com/fravaccaro
 
 project_entries:
-  - title: Harbour Muoto
+  - title: Muoto
     url: https://github.com/uithemer/harbour-muoto
     desc: Sailfish OS app — UI theming for Muoto.
 
-  - title: Harbour Talteen
+  - title: Talteen
     url: https://github.com/fravaccaro/harbour-talteen
     desc: Sailfish OS app — save and organise content on device.
+
+  - title: Tarkka
+    url: https://github.com/fravaccaro/harbour-tarkka
+    desc: Sailfish OS app — digital magnifying glass for accessibility.
 
 footer_entries:
   - title: github
@@ -26,9 +30,6 @@ footer_entries:
 
   - title: mastodon
     url: https://mastodon.social/@itsamecthulhu
-
-  - title: wordpress
-    url: https://fravaccaro.wordpress.com
 
   - title: youtube
     url: https://www.youtube.com/@itsamefra
