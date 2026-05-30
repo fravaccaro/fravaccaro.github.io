@@ -11,11 +11,11 @@ navbar_entries:
 project_entries:
   - title: Muoto
     url: https://github.com/uithemer/harbour-muoto
-    desc: Sailfish OS app — UI theming for Muoto.
+    desc: Sailfish OS app — UI theming and customization.
 
   - title: Talteen
     url: https://github.com/fravaccaro/harbour-talteen
-    desc: Sailfish OS app — save and organise content on device.
+    desc: Sailfish OS app — save and restore apps, data and files.
 
   - title: Tarkka
     url: https://github.com/fravaccaro/harbour-tarkka
