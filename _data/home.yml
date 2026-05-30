@@ -21,6 +21,14 @@ project_entries:
     url: https://github.com/fravaccaro/harbour-tarkka
     desc: Sailfish OS app — digital magnifying glass for accessibility.
 
+  - title: JollaIt
+    url: https://github.com/fravaccaro/harbour-jollait
+    desc: Sailfish OS app — Jolla Community Italia app.
+
+  - title: Jolla Community Italia
+    url: https://jollacommunity.it
+    desc: Italian Sailfish OS community — news, guides and resources.
+
 footer_entries:
   - title: github
     url: https://github.com/fravaccaro

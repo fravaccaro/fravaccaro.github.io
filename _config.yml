@@ -16,7 +16,7 @@ theme_config:
   date_format: "%Y-%m-%d"
   show_description: true
   show_navbar: true
-  show_footer: true
+  show_footer: false
   show_copyright: true
   show_projects: true
   show_blog: true
@@ -30,7 +30,7 @@ theme_config:
   show_post_nav: true
   show_toc: true
   home:
-    title_projects: Apps
+    title_projects: Portfolio
     title_blog: Blog
 
 highlighter: rouge
