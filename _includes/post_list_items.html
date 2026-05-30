@@ -1,0 +1,10 @@
+{% if include.posts %}
+<ul>
+  {% for post in include.posts %}
+  <li>
+    <span>{{ post.date | date: site.theme_config.date_format }}&nbsp;»&nbsp;</span>
+    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+  </li>
+  {% endfor %}
+</ul>
+{% endif %}

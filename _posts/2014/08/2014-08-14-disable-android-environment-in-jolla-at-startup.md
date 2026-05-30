@@ -14,4 +14,4 @@ I realized the first think I do as I bootup my Jolla is stopping the Alien Dalvi
 
 From the terminal: `devel-su <password> nano /etc/systemd/system/nodroidavvio.service` In nano paste: ` [Unit] After=aliendalvik.service Description=No Android al riavvio` `[Service] Type=oneshot RemainAfterExit=no ExecStart=/bin/systemctl stop aliendalvik.service` `[Install] WantedBy=multi-user.target` Close and save by pressing `CTRL+X` and within the terminal prompt: `# systemctl enable nodroidavvio.service` To re-enable the Alien Dalvik at startup: `# systemctl disable nodroidavvio.service`
 
-_thanks to[@iliveinpublic](<http://twitter.com/iliveinpublic>) and [@eugenio_g7](<http://twitter.com/eugenio_g7>) for the tips._
+_thanks to[@iliveinpublic](http://twitter.com/iliveinpublic) and [@eugenio_g7](http://twitter.com/eugenio_g7) for the tips._

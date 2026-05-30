@@ -7,6 +7,7 @@ gem "jekyll-remote-theme"
 
 group :jekyll_plugins do
   gem "jekyll-feed"
+  gem "jekyll-paginate-v2"
   gem "jekyll-sitemap"
   gem "jekyll-soopr-seo-tag", "~> 2.7"
   gem "jekyll-markdown-output", "~> 0.1"

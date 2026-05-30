@@ -4,7 +4,7 @@ title: "Sailfish OS: how to display more content"
 date: 2017-03-08 09:07:06 +0000
 tags: ["DPR", "guide", "PPI", "Sailfish OS"]
 ---
-Some people prefer to have a more content-packed screen to have as much informations as possible at a glance. On Android devices, this can be obtained by fiddling with DPI, i.e. the amount of dots per inch, while on Sailfish OS the device pixel ratio (DPR) is used for the same purpose - more on this [here](<http://stackoverflow.com/a/21413366>). 
+Some people prefer to have a more content-packed screen to have as much information as possible at a glance. On Android devices, this can be obtained by fiddling with DPI, i.e. the amount of dots per inch, while on Sailfish OS the device pixel ratio (DPR) is used for the same purpose - more on this [here](http://stackoverflow.com/a/21413366). 
 
 ## Check the DPR
 
@@ -16,11 +16,11 @@ Empirically, a lower number would give more space to be filled by content, at th
 
 ### DPR 1.10
 
-Type, as regular user: `dconf write /desktop/sailfish/silica/theme_pixel_ratio 1.10` then refresh the homescreen. [![](/assets/posts/2017/03/sailfish-os-how-to-display-more-content-schermata_20170307_001.png) ](<https://fravaccaro.wordpress.com/2017/03/08/sailfish-os-how-to-display-more-content/schermata_20170307_001/#main>)![](/assets/posts/2017/03/sailfish-os-how-to-display-more-content-schermata_20170307_011.png) ![](/assets/posts/2017/03/sailfish-os-how-to-display-more-content-schermata_20170307_010.png) [![](/assets/posts/2017/03/sailfish-os-how-to-display-more-content-schermata_20170307_002.png)](<https://fravaccaro.wordpress.com/2017/03/08/sailfish-os-how-to-display-more-content/schermata_20170307_002/#main>)
+Type, as regular user: `dconf write /desktop/sailfish/silica/theme_pixel_ratio 1.10` then refresh the homescreen. [![](/assets/posts/2017/03/sailfish-os-how-to-display-more-content-schermata_20170307_001.png) ](https://fravaccaro.wordpress.com/2017/03/08/sailfish-os-how-to-display-more-content/schermata_20170307_001/#main)![](/assets/posts/2017/03/sailfish-os-how-to-display-more-content-schermata_20170307_011.png) ![](/assets/posts/2017/03/sailfish-os-how-to-display-more-content-schermata_20170307_010.png) [![](/assets/posts/2017/03/sailfish-os-how-to-display-more-content-schermata_20170307_002.png)](https://fravaccaro.wordpress.com/2017/03/08/sailfish-os-how-to-display-more-content/schermata_20170307_002/#main)
 
 ### DPR 0.90
 
-Type, as regular user: `dconf write /desktop/sailfish/silica/theme_pixel_ratio 0.90` then refresh the homescreen. [![](/assets/posts/2017/03/sailfish-os-how-to-display-more-content-schermata_20170307_012.png) ](<https://fravaccaro.wordpress.com/2017/03/08/sailfish-os-how-to-display-more-content/schermata_20170307_012/#main>)[![](/assets/posts/2017/03/sailfish-os-how-to-display-more-content-schermata_20170307_005.png) ](<https://fravaccaro.wordpress.com/2017/03/08/sailfish-os-how-to-display-more-content/schermata_20170307_005/#main>)[![](/assets/posts/2017/03/sailfish-os-how-to-display-more-content-schermata_20170307_013.png) ](<https://fravaccaro.wordpress.com/2017/03/08/sailfish-os-how-to-display-more-content/schermata_20170307_013/#main>)[![](/assets/posts/2017/03/sailfish-os-how-to-display-more-content-schermata_20170307_008.png)](<https://fravaccaro.wordpress.com/2017/03/08/sailfish-os-how-to-display-more-content/schermata_20170307_008/#main>)
+Type, as regular user: `dconf write /desktop/sailfish/silica/theme_pixel_ratio 0.90` then refresh the homescreen. [![](/assets/posts/2017/03/sailfish-os-how-to-display-more-content-schermata_20170307_012.png) ](https://fravaccaro.wordpress.com/2017/03/08/sailfish-os-how-to-display-more-content/schermata_20170307_012/#main)[![](/assets/posts/2017/03/sailfish-os-how-to-display-more-content-schermata_20170307_005.png) ](https://fravaccaro.wordpress.com/2017/03/08/sailfish-os-how-to-display-more-content/schermata_20170307_005/#main)[![](/assets/posts/2017/03/sailfish-os-how-to-display-more-content-schermata_20170307_013.png) ](https://fravaccaro.wordpress.com/2017/03/08/sailfish-os-how-to-display-more-content/schermata_20170307_013/#main)[![](/assets/posts/2017/03/sailfish-os-how-to-display-more-content-schermata_20170307_008.png)](https://fravaccaro.wordpress.com/2017/03/08/sailfish-os-how-to-display-more-content/schermata_20170307_008/#main)
 
 ## Reset the DPR to the default value
 
@@ -28,7 +28,7 @@ Type, as regular user: `dconf reset /desktop/sailfish/silica/theme_pixel_ratio` 
 
 ## Tablet UI
 
-With smaller DPR values, it may make sense to enable the quick settings sidebar like seen on the Jolla Tablet. Open, as root, the file: `/usr/share/lipstick-jolla-home-qt5/main/Desktop.qml` locate the line: `property bool showEventsViewSidebar: Screen.sizeCategory >= Screen.Large` and change it as following: `property bool showEventsViewSidebar: Screen.sizeCategory >= Screen.Small` then refresh the homescreen. [![](/assets/posts/2017/03/sailfish-os-how-to-display-more-content-schermata_20170308_003.png)](<https://fravaccaro.wordpress.com/2017/03/08/sailfish-os-how-to-display-more-content/schermata_20170308_003/#main>)
+With smaller DPR values, it may make sense to enable the quick settings sidebar like seen on the Jolla Tablet. Open, as root, the file: `/usr/share/lipstick-jolla-home-qt5/main/Desktop.qml` locate the line: `property bool showEventsViewSidebar: Screen.sizeCategory >= Screen.Large` and change it as following: `property bool showEventsViewSidebar: Screen.sizeCategory >= Screen.Small` then refresh the homescreen. [![](/assets/posts/2017/03/sailfish-os-how-to-display-more-content-schermata_20170308_003.png)](https://fravaccaro.wordpress.com/2017/03/08/sailfish-os-how-to-display-more-content/schermata_20170308_003/#main)
 
 ## Alien Dalvik
 
@@ -40,4 +40,4 @@ I may work on some simple UI to edit the DPR value, but my programming skiils ar
 
 ## Update
 
-A preliminary package has been uploaded [here](<https://openrepos.net/content/fravaccaro/ui-themer>).
+A preliminary package has been uploaded [here](https://openrepos.net/content/fravaccaro/ui-themer).

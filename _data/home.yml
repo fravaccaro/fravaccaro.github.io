@@ -2,6 +2,9 @@ navbar_entries:
   - title: about
     url: about
 
+  - title: blog
+    url: /blog/
+
   - title: github
     url: https://github.com/fravaccaro
 

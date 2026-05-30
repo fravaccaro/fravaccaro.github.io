@@ -4,7 +4,7 @@ title: "Increase Swap file size on your N9"
 date: 2013-09-24 08:54:14 +0000
 tags: ["guide", "increase", "MeeGo", "N9", "Nokia", "Swap"]
 ---
-Hi everyone. It's been long time since I wrote my last post, but I'm a bit busy with some projects (among them...mhmm...how it's called...oh, yes, life), so sorry if you missed me. I decided to post about a pretty intriguing mod for the N9 I found some time ago on [EverythingN9](<http://everythingn9.com/speed-mod-increase-the-swap-file-size/>). Yeah, there's already a guide and a [thread on TMO](<http://talk.maemo.org/showthread.php?t=86752>), but I would like to write it down since with CODeRUS' _Aegis-hack_ and _OpenSudo_ some step may be changed - and, you know, I consider this miserable blog as my scrapbook, so no offense on this, I'm not afraid to give credits and I don't want to appropriate others' hard work. I will not bother you trying to explain what a Swap file is, if you are here you already know what you're looking for. So, let's start. VERSIONE ITALIANA [QUI](<http://fravaccaro.wordpress.com/?p=361>). 
+Hi everyone. It's been long time since I wrote my last post, but I'm a bit busy with some projects (among them...mhmm...how it's called...oh, yes, life), so sorry if you missed me. I decided to post about a pretty intriguing mod for the N9 I found some time ago on [EverythingN9](http://everythingn9.com/speed-mod-increase-the-swap-file-size/). Yeah, there's already a guide and a [thread on TMO](http://talk.maemo.org/showthread.php?t=86752), but I would like to write it down since with CODeRUS' _Aegis-hack_ and _OpenSudo_ some step may be changed - and, you know, I consider this miserable blog as my scrapbook, so no offense on this, I'm not afraid to give credits and I don't want to appropriate others' hard work. I will not bother you trying to explain what a Swap file is, if you are here you already know what you're looking for. So, let's start. VERSIONE ITALIANA [QUI](http://fravaccaro.wordpress.com/?p=361). 
 
 ## Disclaimer
 
@@ -16,7 +16,7 @@ I'll try to be as concise as possible, since anyone hardly read a disclaimer: DO
 
 ## SSH connection
 
-4\. Open the SDK Connectivity Tool, under WLAN you'll find your IP address. Take note of it. 5\. If you run Windows, you can use [Putty](<https://www.dropbox.com/s/3b7t91ehn0f4o6m/putty.exe>), it doesn't require installation. If you run Linux, just open the terminal and type: `ssh user@IPaddress` Use the password you chose on the step 2. 6\. From the SSH session, type: `devel-su` `rootme` `sudo -s` `(OpenSudo password, see step 1)` `accli -I |grep tcb-sign` This last line MUST return: `aegis-enabler::tcb-sign` If not, don't go further. 
+4\. Open the SDK Connectivity Tool, under WLAN you'll find your IP address. Take note of it. 5\. If you run Windows, you can use [Putty](https://www.dropbox.com/s/3b7t91ehn0f4o6m/putty.exe), it doesn't require installation. If you run Linux, just open the terminal and type: `ssh user@IPaddress` Use the password you chose on the step 2. 6\. From the SSH session, type: `devel-su` `rootme` `sudo -s` `(OpenSudo password, see step 1)` `accli -I |grep tcb-sign` This last line MUST return: `aegis-enabler::tcb-sign` If not, don't go further. 
 
 ## The crucial part
 
@@ -26,4 +26,4 @@ I'll try to be as concise as possible, since anyone hardly read a disclaimer: DO
 
 Before applying the mod, _DropCache_ reports a Swap file size of 255mb. After, it should report 412mb. Practically, now the N9 should be able to keep more apps in background before it slow down. I hope this has been useful to you. See you soon! 
 
-_via [[1](<http://everythingn9.com/speed-mod-increase-the-swap-file-size/>)], [[2](<http://everythingn9.com/how-to-use-putty-on-the-nokia-n9/>)]_
+_via [[1](http://everythingn9.com/speed-mod-increase-the-swap-file-size/)], [[2](http://everythingn9.com/how-to-use-putty-on-the-nokia-n9/)]_

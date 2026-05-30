@@ -4,7 +4,7 @@ title: "Why the status bar has NOT to go"
 date: 2015-10-12 18:44:47 +0000
 tags: ["gestures", "Pointless thoughts", "Sailfish OS", "status bar", "UI", "UX"]
 ---
-The title clearly recalls [this post](<http://jaakkoroppola.blogspot.it/2014/11/why-status-bar-has-to-go.html>) by Jaakko Roppola, Senior Designer at Jolla. Now, I'm a huge fan of him, I love his vision. I was lucky enough to have a brief conversation with him at the Jolla office in Tampere and I actually like his point of view in that post, but I'm also a fan of underdogs - otherwise I would not be here. I like to see the other side of the coin, so let's see why in my humble opinion the status bar still has something to say.
+The title clearly recalls [this post](http://jaakkoroppola.blogspot.it/2014/11/why-status-bar-has-to-go.html) by Jaakko Roppola, Senior Designer at Jolla. Now, I'm a huge fan of him, I love his vision. I was lucky enough to have a brief conversation with him at the Jolla office in Tampere and I actually like his point of view in that post, but I'm also a fan of underdogs - otherwise I would not be here. I like to see the other side of the coin, so let's see why in my humble opinion the status bar still has something to say.
 
 ## Preface
 
@@ -16,7 +16,7 @@ Let's ride my sick fantasy for a moment and imagine to implement it in the curre
 
 ### Double the gestures
 
-Why should we be forced to use the ambience menu OR the swipe to close? As a reference, let's take the MeeGo Harmattan (which UI/UX-wise is imho still among the best and it's proven to work) implementation: [ ![Swipe down in MeeGo Harmattan](/assets/posts/2015/10/why-the-status-bar-has-not-to-go-2.png) ](<https://fravaccaro.wordpress.com/2015/10/12/why-the-status-bar-has-not-to-go/attachment/2/#main>)[![Status bar in MeeGo Harmattan](/assets/posts/2015/10/why-the-status-bar-has-not-to-go-1.png)](<https://fravaccaro.wordpress.com/2015/10/12/why-the-status-bar-has-not-to-go/attachment/1/#main>)
+Why should we be forced to use the ambience menu OR the swipe to close? As a reference, let's take the MeeGo Harmattan (which UI/UX-wise is imho still among the best and it's proven to work) implementation: [ ![Swipe down in MeeGo Harmattan](/assets/posts/2015/10/why-the-status-bar-has-not-to-go-2.png) ](https://fravaccaro.wordpress.com/2015/10/12/why-the-status-bar-has-not-to-go/attachment/2/#main)[![Status bar in MeeGo Harmattan](/assets/posts/2015/10/why-the-status-bar-has-not-to-go-1.png)](https://fravaccaro.wordpress.com/2015/10/12/why-the-status-bar-has-not-to-go/attachment/1/#main)
 
   * Tap on the status bar reveals the menu.
   * Swipe down closes the app or minimize it (as in MeeGo/Sailfish OS 1.x, depending on the user's preference). A swipe from the top in the home screen may also quickly lock the phone (as in Sailfish OS 1.x - something that some users seem to miss).
@@ -29,4 +29,4 @@ What may this multitasking-focused OS lack? A quick switch between two (or more)
 
 ## Bottom line
 
-This is the simpliest way I could come with, as I think gestures should be as coherent as possible throughout the interface - this excludes swipes from the left/right, top/bottom, corners, L swipes performing different actions. Thus said, do you think a quick switch between apps is worthy having that hideous bar back? Comments are warmly welcome, just please put aside for a moment the rage against the "damn" status bar and think with an open mind. Love. [Appeared on Sailfish OS Reviews](<http://reviewjolla.blogspot.it/2015/10/why-status-bar-has-not-to-go.html>)
+This is the simpliest way I could come with, as I think gestures should be as coherent as possible throughout the interface - this excludes swipes from the left/right, top/bottom, corners, L swipes performing different actions. Thus said, do you think a quick switch between apps is worthy having that hideous bar back? Comments are warmly welcome, just please put aside for a moment the rage against the "damn" status bar and think with an open mind. Love. [Appeared on Sailfish OS Reviews](http://reviewjolla.blogspot.it/2015/10/why-status-bar-has-not-to-go.html)

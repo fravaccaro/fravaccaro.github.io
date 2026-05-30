@@ -12,7 +12,7 @@ In this post I will focus mainly on the Events view and notifications - which in
 
 ## The Home view
 
-[![Pin app cover](/assets/posts/2017/03/sailfish-os-a-new-events-view-concept-dscn6005.jpg)](<https://fravaccaro.wordpress.com/2017/03/01/sailfish-os-a-new-events-view-concept/dscn6005/#main>)A simple addition would dramatically improve the usefulness of the multitasking view: adding pinned apps. Since in Sailfish OS 2.x there’s no longer the 9 covers view limit of the 1.x iteration, having apps pinned at startup would both help to interact with the most used ones (even because of muscle memory) and partially solve the current lack of an autostart option (at least in Store-approved apps). 
+[![Pin app cover](/assets/posts/2017/03/sailfish-os-a-new-events-view-concept-dscn6005.jpg)](https://fravaccaro.wordpress.com/2017/03/01/sailfish-os-a-new-events-view-concept/dscn6005/#main)A simple addition would dramatically improve the usefulness of the multitasking view: adding pinned apps. Since in Sailfish OS 2.x there’s no longer the 9 covers view limit of the 1.x iteration, having apps pinned at startup would both help to interact with the most used ones (even because of muscle memory) and partially solve the current lack of an autostart option (at least in Store-approved apps). 
 
 ## The Events view
 
@@ -20,7 +20,7 @@ It would not be heretic to say that nowadays the Events view is largely underuse
 
 ### A notification hub
 
-[![Events view](/assets/posts/2017/03/sailfish-os-a-new-events-view-concept-dscn6006.jpg)](<https://fravaccaro.wordpress.com/2017/03/01/sailfish-os-a-new-events-view-concept/dscn6006/#main>)The main Events view screen would show, from top to bottom: 
+[![Events view](/assets/posts/2017/03/sailfish-os-a-new-events-view-concept-dscn6006.jpg)](https://fravaccaro.wordpress.com/2017/03/01/sailfish-os-a-new-events-view-concept/dscn6006/#main)The main Events view screen would show, from top to bottom: 
 
   * The weather widget.
   * A larger-than-today calendar widget.
@@ -39,7 +39,7 @@ _Note: 'Clear' is used to actually delete the notification(s) from the list._
 
 #### Notification item
 
-[![Expanded notifications](/assets/posts/2017/03/sailfish-os-a-new-events-view-concept-dscn6004.jpg)](<https://fravaccaro.wordpress.com/2017/03/01/sailfish-os-a-new-events-view-concept/dscn6004/#main>)Interaction with the notification item would occur in three ways: 
+[![Expanded notifications](/assets/posts/2017/03/sailfish-os-a-new-events-view-concept-dscn6004.jpg)](https://fravaccaro.wordpress.com/2017/03/01/sailfish-os-a-new-events-view-concept/dscn6004/#main)Interaction with the notification item would occur in three ways: 
 
   * Tap: to open the app.
   * Long-tap: to show a contextual menu with _Mark as read/unread_ and _Clear notification_ options.
@@ -58,11 +58,11 @@ To avoid clutter, only the first 4-5 notifications per category could be display
 
 #### Category view
 
-[![Category view](/assets/posts/2017/03/sailfish-os-a-new-events-view-concept-dscn5999.jpg)](<https://fravaccaro.wordpress.com/2017/03/01/sailfish-os-a-new-events-view-concept/dscn5999/#main>)Selecting this option from the pulley menu would open an attached page with a simple list of all the notification categories (well, the apps those notifications are from) alongside an individual indicator with a unread/total count. 
+[![Category view](/assets/posts/2017/03/sailfish-os-a-new-events-view-concept-dscn5999.jpg)](https://fravaccaro.wordpress.com/2017/03/01/sailfish-os-a-new-events-view-concept/dscn5999/#main)Selecting this option from the pulley menu would open an attached page with a simple list of all the notification categories (well, the apps those notifications are from) alongside an individual indicator with a unread/total count. 
 
 #### Category page
 
-[![Category page](/assets/posts/2017/03/sailfish-os-a-new-events-view-concept-dscn5998.jpg)](<https://fravaccaro.wordpress.com/2017/03/01/sailfish-os-a-new-events-view-concept/dscn5998/#main>)This would list all the notifications from the given app. Interaction with the notification items would be the same as in the main Events view. The pulley menu would offer (from top to bottom): 
+[![Category page](/assets/posts/2017/03/sailfish-os-a-new-events-view-concept-dscn5998.jpg)](https://fravaccaro.wordpress.com/2017/03/01/sailfish-os-a-new-events-view-concept/dscn5998/#main)This would list all the notifications from the given app. Interaction with the notification items would be the same as in the main Events view. The pulley menu would offer (from top to bottom): 
 
   * Clear category notifications
   * Change priority
@@ -80,7 +80,7 @@ To better sort all the apps the notifications are from, I would introduce a prio
 
 ## Notification banner
 
-[![Notification banner](/assets/posts/2017/03/sailfish-os-a-new-events-view-concept-dscn6002.jpg)](<https://fravaccaro.wordpress.com/2017/03/01/sailfish-os-a-new-events-view-concept/dscn6002/#main>)A bigger notification banner would fit the entire screen width and offer the following interactions: 
+[![Notification banner](/assets/posts/2017/03/sailfish-os-a-new-events-view-concept-dscn6002.jpg)](https://fravaccaro.wordpress.com/2017/03/01/sailfish-os-a-new-events-view-concept/dscn6002/#main)A bigger notification banner would fit the entire screen width and offer the following interactions: 
 
   * Tap: to open the app.
   * Swipe left/right: to dismiss the notification.
@@ -88,7 +88,7 @@ To better sort all the apps the notifications are from, I would introduce a prio
 
 ## What about the controls?
 
-[![Controls/Ambiences drop-down menu](/assets/posts/2017/03/sailfish-os-a-new-events-view-concept-dscn6001.jpg)](<https://fravaccaro.wordpress.com/2017/03/01/sailfish-os-a-new-events-view-concept/dscn6001/#main>)With the pulley menu taking the upper-part of the Events view, toggles and quick actions would be moved to the Ambience drop-down menu. This would make them more accessible throughout the whole system. The new drop-down would show (from top to bottom): 
+[![Controls/Ambiences drop-down menu](/assets/posts/2017/03/sailfish-os-a-new-events-view-concept-dscn6001.jpg)](https://fravaccaro.wordpress.com/2017/03/01/sailfish-os-a-new-events-view-concept/dscn6001/#main)With the pulley menu taking the upper-part of the Events view, toggles and quick actions would be moved to the Ambience drop-down menu. This would make them more accessible throughout the whole system. The new drop-down would show (from top to bottom): 
 
   * A narrower lock button.
   * Toggles and quick actions.
@@ -96,4 +96,4 @@ To better sort all the apps the notifications are from, I would introduce a prio
 
 ## Wrap-up
 
-I tried to be as comprehensive as possible. I’m not an UI designer myself and of course I don’t want to criticize the amazing work designers have been doing on the platform, but I wanted to show my thoughts on the areas which may be improved. Comments and suggestions are welcome. [Cover image](<https://cdn-blog.jolla.com/wp-content/uploads/2015/09/events.jpg>)
+I tried to be as comprehensive as possible. I’m not an UI designer myself and of course I don’t want to criticize the amazing work designers have been doing on the platform, but I wanted to show my thoughts on the areas which may be improved. Comments and suggestions are welcome. [Cover image](https://cdn-blog.jolla.com/wp-content/uploads/2015/09/events.jpg)

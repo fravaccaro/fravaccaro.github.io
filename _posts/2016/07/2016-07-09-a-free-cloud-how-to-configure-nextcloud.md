@@ -4,11 +4,11 @@ title: "A free cloud - how to configure Nextcloud"
 date: 2016-07-09 17:36:29 +0000
 tags: ["CertBot", "DietPi", "guide", "installation", "LAMP", "Letsencrypt", "Linux", "Nextcloud", "OwnCloud", "Raspberry Pi"]
 ---
-As some of you may know, I’m a quite open source-oriented guy. I run different flavors of GNU/Linux on my machines (currently the amazing Arch-based Antergos), I used to be an avid N9 (MeeGo) user and a current Jolla (Sailfish OS) one. I’m not that kind of man who bashes everything is closed-sourced though; I look at different solutions and choose the best one. And a lot of times the best one is open source. Why am I writing this preface? Because open source fans are usually pictured as blatant long-bearded programmers or (pseudo-)philosophers with Steve Ballmer's face printed on their toilet paper. And although the Ballmer-paper is a brilliant idea, I’m not a programmer, nor a philosopher and I hope blatant neither. And my beard grows in patches. I’m just a guy willing to learn new stuff and who’s becoming more conscious where his data go. All the major platforms (both mobile and desktop) work great, but do they worth my privacy and my personal information as a price to pay? In one word, _nope_. This is one of the reasons I am approaching more to open solutions instead of closed ones and why I am writing this post – post conceived to show that even a non so IT-skilled guy as me can set up a small personal cloud to store his data. But, all in all, what exactly is the so-called _cloud_? 
+As some of you may know, I’m a quite open source-oriented guy. I run different flavors of GNU/Linux on my machines (currently the amazing Arch-based Antergos), I used to be an avid N9 (MeeGo) user and a current Jolla (Sailfish OS) one. I’m not that kind of man who bashes everything is closed-sourced though; I look at different solutions and choose the best one. And a lot of times the best one is open source. Why am I writing this preface? Because open source fans are usually pictured as blatant long-bearded programmers or (pseudo-)philosophers with Steve Ballmer's face printed on their toilet paper. And although the Ballmer-paper is a brilliant idea, I’m not a programmer, nor a philosopher and I hope blatant neither. And my beard grows in patches. I’m just a guy willing to learn new stuff and who’s becoming more conscious where his data go. All the major platforms (both mobile and desktop) work great, but are they worth my privacy and my personal information as a price to pay? In one word, _nope_. This is one of the reasons I am approaching more to open solutions instead of closed ones and why I am writing this post – post conceived to show that even a not so IT-skilled guy as me can set up a small personal cloud to store his data. But, all in all, what exactly is the so-called _cloud_? 
 
 ## The cloud
 
-In a nutshell, the _cloud computing_ lets you archive your contacts, calendars, files, pictures and so on on a company server to reach them no matter what device you are using. Easy, isn’t it? But here it comes the first caveat. Yes, because all your data are literally on someone else computer and under the law of the countries where those servers are located in and this is a matter – as the _NSA-affaire_ showed – to not be understated. People may say “ _Oh if you have nothing to hide you should not be afraid_ ”. **Bullshit**. Since you have nothing to hide, would it be okay for you if policemen came from time to time at your place to rummage into your things? It would bother me. So why should I be okay to let a foreign (but neither my home one would be fine) government rummage into my data? Even if data were not at the mercy of foreign governments still, accepting the _End User License Agreement_ (EULA), we grant to those companies the right to do whatever they like with our information. Have you noticed that if you book a flight and you receive the ticket into your Gmail, the relative event is added to Google Calendar within minutes? This is because Google analyzes the content of your emails (but also your files, photos, etc.) to give you a - yes - convenient service, but also to enrich the profile of you they have and yield it to their trading partners. Sure, it’s handy and straightforward, but am I the only one to find it a little bit _creepy_? 
+In a nutshell, the _cloud computing_ lets you archive your contacts, calendars, files, pictures and so on on a company server to reach them no matter what device you are using. Easy, isn’t it? But here it comes the first caveat. Yes, because all your data are literally on someone else computer and under the law of the countries where those servers are located in and this is a matter – as the _NSA affair_ showed – to not be understated. People may say “ _Oh if you have nothing to hide you should not be afraid_ ”. **Bullshit**. Since you have nothing to hide, would it be okay for you if policemen came from time to time at your place to rummage into your things? It would bother me. So why should I be okay to let a foreign (but neither my home one would be fine) government rummage into my data? Even if data were not at the mercy of foreign governments still, accepting the _End User License Agreement_ (EULA), we grant to those companies the right to do whatever they like with our information. Have you noticed that if you book a flight and you receive the ticket into your Gmail, the relative event is added to Google Calendar within minutes? This is because Google analyzes the content of your emails (but also your files, photos, etc.) to give you a - yes - convenient service, but also to enrich the profile of you they have and yield it to their trading partners. Sure, it’s handy and straightforward, but am I the only one to find it a little bit _creepy_? 
 
 ### Is an alternative solution possible?
 
@@ -47,9 +47,9 @@ So, without further ado, let's dive into it.
 
 We are going to use a bare-bone Raspbian-derived distribution called DietPi. Its strengths are the ease of use and configuration and the sleekness; it’s particularly suitable as a server distro as it offers no graphical interface nor any blob at all by default. 
 
-  1. Download the image from [here](<http://dietpi.com/>) and unzip it.
+  1. Download the image from [here](http://dietpi.com/) and unzip it.
   2. Insert the SD card into your PC.
-  3. (On Windows) Use [Win32DiskImager](<https://sourceforge.net/projects/win32diskimager/>) to burn the image onto the SD or (on Linux) open a terminal and type: # dd if=FILEPATH/FILE.img of=/dev/sdX Where X is the letter associated with the SD. _Note: you should use sdX, not sdX1, sdX2, etc._
+  3. (On Windows) Use [Win32DiskImager](https://sourceforge.net/projects/win32diskimager/) to burn the image onto the SD or (on Linux) open a terminal and type: # dd if=FILEPATH/FILE.img of=/dev/sdX Where X is the letter associated with the SD. _Note: you should use sdX, not sdX1, sdX2, etc._
 
 * * *
 
@@ -84,7 +84,7 @@ _Note: use this setting**ONLY** if you are sure you are the only one who can phy
 
 * * *
 
-Now you can turn off the Pi, move it wherever you like and use it via SSH from your main PC, using [Putty](<http://www.putty.org/>) (on Windows) or `ssh root@192.168.1.99` from your Linux terminal. 
+Now you can turn off the Pi, move it wherever you like and use it via SSH from your main PC, using [Putty](http://www.putty.org/) (on Windows) or `ssh root@192.168.1.99` from your Linux terminal. 
 
 ## Configure the DNS
 
@@ -94,7 +94,7 @@ Connecting to your server via your modem IP address is awkward, as it changes ev
 
   1. Register on `http://freedns.afraid.org/`
   2. Login. From the menu on the left select `Dynamic DNS`. At the bottom of the page, create a new record - let's use `mypi.homenet.org` as a reference.
-  3. Click on `Direct URL `[![FreeDNS](/assets/posts/2016/07/a-free-cloud-how-to-configure-nextcloud-freedns.png)](<https://fravaccaro.wordpress.com/freedns/>)
+  3. Click on `Direct URL `[![FreeDNS](/assets/posts/2016/07/a-free-cloud-how-to-configure-nextcloud-freedns.png)](https://fravaccaro.wordpress.com/freedns/)
   4. The address bar will display an URL of this kind: `http://freedns.afraid.org/dynamic/update.php?[alphanumeric code]`
   5. Take note of the alphanumeric code.
 
@@ -122,7 +122,7 @@ _Note: it may take some time, if you see it stuck on 'Installing Python packages
 
   1. Open a browser and login into your router (usually the address is something like `192.168.1.1` or `192.168.0.1`, but you may want to check it on the bottom/rear tag on the modem or on its user manual).
   2. Look for an option called _Port mapping_ (or similar).
-  3. Open the ports 80 and 443 to your Pi IP address. [![Router configuration](/assets/posts/2016/07/a-free-cloud-how-to-configure-nextcloud-router_configuration.png)](<https://fravaccaro.wordpress.com/2016/07/09/a-free-cloud-how-to-configure-nextcloud/router_configuration/#main>)
+  3. Open the ports 80 and 443 to your Pi IP address. [![Router configuration](/assets/posts/2016/07/a-free-cloud-how-to-configure-nextcloud-router_configuration.png)](https://fravaccaro.wordpress.com/2016/07/09/a-free-cloud-how-to-configure-nextcloud/router_configuration/#main)
 
 Now you should be able to access to your server from any browser using the URL `mypi.homenet.org`
 
@@ -140,4 +140,4 @@ You can switch to your own language by using `Admin` via the top-right menu.
 
 ### Contacts and Calendar
 
-You may need to manually activate the Contacts and Calendar apps by using `Applications` on the top-left menu. _That's all folks!_ Have fun using Nextcloud and regaining control over your own data.__ Sources [DietPi: Download DietPi image | Getting started](<http://dietpi.com/phpbb/viewtopic.php?f=8&t=9>), [DietPi: (Step by Step Guide) DietPi - Owncloud](<http://dietpi.com/phpbb/viewtopic.php?f=8&t=10>), [Techjawab: Setup Dynamic DNS / DynDNS for *FREE* on Raspberry Pi / Ubuntu ](<http://www.techjawab.com/2013/06/setup-dynamic-dns-dyndns-for-free-on.html>), [Details for ALL installation options](<http://dietpi.com/phpbb/viewtopic.php?f=8&t=5&p=3026#p3026>)
+You may need to manually activate the Contacts and Calendar apps by using `Applications` on the top-left menu. _That's all folks!_ Have fun using Nextcloud and regaining control over your own data.__ Sources [DietPi: Download DietPi image | Getting started](http://dietpi.com/phpbb/viewtopic.php?f=8&t=9), [DietPi: (Step by Step Guide) DietPi - Owncloud](http://dietpi.com/phpbb/viewtopic.php?f=8&t=10), [Techjawab: Setup Dynamic DNS / DynDNS for *FREE* on Raspberry Pi / Ubuntu ](http://www.techjawab.com/2013/06/setup-dynamic-dns-dyndns-for-free-on.html), [Details for ALL installation options](http://dietpi.com/phpbb/viewtopic.php?f=8&t=5&p=3026#p3026)

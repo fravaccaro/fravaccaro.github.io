@@ -24,4 +24,4 @@ The update 7 expected for 7-14th June) will bring:
   * "Do not track" option under Browser settings.
   * Enable quick scrolling feature in Sailfish views.
 
-Remember that this is just a part of the planned roadmap, including only high-level features and it's subjected to changes. Furthermore, it doesn't include any low-level update (packages, libraries, etc). [_Source_](<http://jollafr.org/quelques-informations-sur-les-prochaines-mises-a-jour/>)
+Remember that this is just a part of the planned roadmap, including only high-level features and it's subject to change. Furthermore, it doesn't include any low-level update (packages, libraries, etc). [_Source_](http://jollafr.org/quelques-information-sur-les-prochaines-mises-a-jour/)

@@ -1,0 +1,13 @@
+{% if site.posts.size > 0 %}
+<ul>
+  {% for post in site.posts limit:8 %}
+  <li>
+    <span>{{ post.date | date: site.theme_config.date_format }}&nbsp;»&nbsp;</span>
+    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+  </li>
+  {% endfor %}
+</ul>
+{% if site.posts.size > 8 %}
+<p><a href="{{ '/blog/' | relative_url }}">All posts →</a></p>
+{% endif %}
+{% endif %}

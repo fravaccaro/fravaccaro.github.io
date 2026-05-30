@@ -4,7 +4,7 @@ title: "Interview with Heikki of @SituationsApp"
 date: 2015-05-28 09:54:43 +0000
 tags: ["interview", "Jolla", "Situations"]
 ---
-In a sunny and mild end-May afternoon I had the chance to meet, in Helsinki, Heikki Haveri, developer of Situations and partner, along with another former Nokia employee, Roope Tassberg, in the [Pastilli Labs](<http://www.pastillilabs.com/home>) project. In a pretty _kahvila_ of the city's center, along with a cup of coffee, we had a long and pleasant chat, talking about the expectations and the present (and a dig into the past, as well) of Jolla and Situations. Tell us about Pastilli Labs: how did the project kick off? Who are the founders and the current team? 
+In a sunny and mild end-May afternoon I had the chance to meet, in Helsinki, Heikki Haveri, developer of Situations and partner, along with another former Nokia employee, Roope Tassberg, in the [Pastilli Labs](http://www.pastillilabs.com/home) project. In a pretty _kahvila_ of the city's center, along with a cup of coffee, we had a long and pleasant chat, talking about the expectations and the present (and a dig into the past, as well) of Jolla and Situations. Tell us about Pastilli Labs: how did the project kick off? Who are the founders and the current team? 
 
 > Pastilli Labs was founded by me and Roope when both of us left Nokia. In Nokia we had this project, Nokia Situations, originally meant to be part of some devices but it never happened, so it became an internal alpha and after a public beta on Beta Labs. Then we were transfered to Accenture and we asked the permission to take the idea and carry it on on our own. I'm the developer of the app, while Roope takes care of the business side, marketing, bureaucracy and so on. The first version was built in Qt on the original Symbian app, then it was ported to MeeGo. With the release 2 I tried to run Situations on as many platforms as possible, so the Android and – later – the Sailfish versions came out.
 
@@ -56,4 +56,4 @@ What is the future of Pastilli Labs? Do you have new projects in the pipeline?
 
 > Not really, currently we are focusing on Situations. As we are both busy in other things our time is limited, so no plans for other apps anytime soon.
 
-And this is all. I would like to say thank you to Heikki for having kindly given his time for this interview and I wish him the best for his present and future projects. _Sail on!_ [Appeared on JollaUsers](<http://www.jollausers.com/2015/05/interview-with-heikki-of-situationsapp/>)
+And this is all. I would like to say thank you to Heikki for having kindly given his time for this interview and I wish him the best for his present and future projects. _Sail on!_ [Appeared on JollaUsers](http://www.jollausers.com/2015/05/interview-with-heikki-of-situationsapp/)

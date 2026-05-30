@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Jolla Italian meetups sum up"
+title: "Jolla Italian meetups summary"
 date: 2014-05-09 00:36:52 +0000
 tags: ["Jolla", "meetup", "Milan", "Rome", "Stefano Mosconi"]
 ---

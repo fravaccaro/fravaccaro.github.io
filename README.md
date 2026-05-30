@@ -1,4 +1,4 @@
-# fravaccaro.github.io
+# fravaccaro.com
 
 Personal site built with [Jekyll](https://jekyllrb.com) and the [Moonwalk](https://github.com/abhinavs/moonwalk) theme.
 

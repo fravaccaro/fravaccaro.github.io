@@ -35,11 +35,19 @@ theme_config:
 
 highlighter: rouge
 
+pagination:
+  enabled: true
+  per_page: 10
+  permalink: "/page/:num/"
+  sort_field: date
+  sort_reverse: true
+
 sass:
   style: compressed
 
 plugins:
   - jekyll-remote-theme
+  - jekyll-paginate-v2
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-soopr-seo-tag
