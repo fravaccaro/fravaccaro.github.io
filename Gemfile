@@ -9,6 +9,8 @@ group :jekyll_plugins do
   gem "jekyll-feed"
   gem "jekyll-sitemap"
   gem "jekyll-soopr-seo-tag", "~> 2.7"
+  gem "jekyll-markdown-output", "~> 0.1"
+  gem "jekyll-llms-output", "~> 0.1"
 end
 
 gem "webrick", "~> 1.8"

@@ -4,6 +4,8 @@ Personal site built with [Jekyll](https://jekyllrb.com) and the [Moonwalk](https
 
 ## Local development
 
+Requires Ruby 3.1+ and `ruby-devel` (Fedora: `sudo dnf install ruby-devel`).
+
 ```bash
 bundle install
 bundle exec jekyll serve

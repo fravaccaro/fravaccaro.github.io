@@ -43,6 +43,18 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-soopr-seo-tag
+  - jekyll-markdown-output
+  - jekyll-llms-output
+
+markdown_output:
+  collections: [posts]
+
+llms_output:
+  index:
+    collections: [posts]
+  full:
+    collections: [posts]
+    respect_markdown_output: true
 
 exclude:
   - Gemfile
