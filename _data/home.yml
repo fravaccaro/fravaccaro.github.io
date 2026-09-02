@@ -8,6 +8,9 @@ navbar_entries:
   - title: github
     url: https://github.com/fravaccaro
 
+  - title: Liberapay
+    url: https://liberapay.com/fravaccaro
+
 project_entries:
   - title: Muoto
     url: https://github.com/uithemer/harbour-muoto

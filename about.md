@@ -14,4 +14,3 @@ Linux and open source are why I got into all of this in the first place, and I'v
 
 - [GitHub](https://github.com/fravaccaro)
 - [LinkedIn](https://www.linkedin.com/in/fravaccaro)
-- [Liberapay](https://liberapay.com/fra)
