@@ -29,7 +29,7 @@ project_entries:
     desc: Sailfish OS app — customize the partner space carousel.
 
   - title: Paperiton
-    url: https://github.com/fravaccaro/harbour-paperiton
+    url: /paperiton/
     desc: Sailfish OS app — native Paperless-ngx document client.
 
   - title: Jolla Community Italia
