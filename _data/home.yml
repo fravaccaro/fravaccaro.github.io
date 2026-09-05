@@ -13,19 +13,19 @@ navbar_entries:
 
 project_entries:
   - title: Muoto
-    url: https://github.com/uithemer/harbour-muoto
+    url: https://uithemer.github.io
     desc: Sailfish OS app — UI theming and customization.
 
   - title: Talteen
-    url: https://github.com/fravaccaro/harbour-talteen
+    url: https://fravaccaro.github.io/harbour-talteen
     desc: Sailfish OS app — save and restore apps, data and files.
 
   - title: Tarkka
-    url: https://github.com/fravaccaro/harbour-tarkka
+    url: https://fravaccaro.github.io/harbour-tarkka
     desc: Sailfish OS app — digital magnifying glass for accessibility.
 
   - title: Karuselli
-    url: https://github.com/fravaccaro/harbour-karuselli
+    url: https://fravaccaro.github.io/harbour-karuselli/
     desc: Sailfish OS app — customize the partner space carousel.
 
   - title: Paperiton
