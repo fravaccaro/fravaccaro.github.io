@@ -32,6 +32,10 @@ project_entries:
     url: /paperiton/
     desc: Sailfish OS app — native Paperless-ngx document client.
 
+  - title: Askare
+    url: /askare/
+    desc: Sailfish OS app — native Nextcloud Tasks client.
+
   - title: Jolla Community Italia
     url: https://jollacommunity.it
     desc: Italian Sailfish OS community — news, guides and resources.
