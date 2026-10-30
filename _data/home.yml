@@ -36,6 +36,10 @@ project_entries:
     url: /askare/
     desc: Sailfish OS app — native Nextcloud Tasks client.
 
+  - title: Lappu
+    url: /lappu/
+    desc: Sailfish OS app — native Nextcloud Notes client.
+
   - title: Jolla Community Italia
     url: https://jollacommunity.it
     desc: Italian Sailfish OS community — news, guides and resources.
