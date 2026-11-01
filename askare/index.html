@@ -9,9 +9,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Askare - Nextcloud tasks on Sailfish OS</title>
+  <title>Askare - Nextcloud Tasks on Sailfish OS</title>
   <meta name="description"
-    content="A native Nextcloud Tasks client for Sailfish OS featuring lists, subtasks, Markdown notes and reminders.">
+    content="A native Nextcloud Tasks client for Sailfish OS: lists, subtasks, Markdown notes and reminders, over CalDAV to your own server.">
   <link rel="canonical" href="https://fravaccaro.com/askare/">
   <link rel="icon"
     href="https://raw.githubusercontent.com/fravaccaro/harbour-askare/refs/heads/main/icons/harbour-askare.svg"
@@ -161,15 +161,17 @@
       justify-content: center;
     }
 
-    .phone-frame {
+    /* Holds the launcher icon until a device screenshot takes its place. */
+    .icon-frame {
+      margin: 0;
+      padding: 2rem;
       max-width: 220px;
       border-radius: 24px;
-      overflow: hidden;
       box-shadow: var(--shadow), 0 0 0 1px var(--border);
       background: var(--bg-card);
     }
 
-    .phone-frame img {
+    .icon-frame img {
       display: block;
       width: 100%;
       height: auto;
@@ -257,7 +259,7 @@
 
 <body>
   <header class="wrap">
-    <div class="logo"> </div>
+    <div class="logo">Sailfish&nbsp;OS</div>
   </header>
 
   <main class="wrap">
@@ -265,7 +267,8 @@
       <div class="hero-copy">
         <h1>Askare</h1>
         <p class="tagline">
-          A native Nextcloud Tasks client for Sailfish&nbsp;OS - track your endeavours right from your phone.
+          A native Nextcloud Tasks client for Sailfish&nbsp;OS - the lists of the server you
+          already run, on the phone and over CalDAV.
         </p>
         <div class="actions">
           <a class="btn btn-primary" href="/harbour-askare/">Documentation</a>
@@ -273,14 +276,14 @@
         </div>
         <nav class="links-row" aria-label="More resources">
           <a href="https://github.com/fravaccaro/harbour-askare/releases/latest">Releases</a>
-          <a href="https://explore.transifex.com/fravaccaro/askare">Translate</a>
           <a href="https://liberapay.com/fravaccaro">Donate</a>
         </nav>
       </div>
       <div class="hero-visual">
-        <figure class="phone-frame">
-          <img src="https://fravaccaro.com/harbour-askare/docs/screenshots/screenshot1.png"
-            alt="Paperiton on Sailfish OS" width="360" height="640" loading="eager">
+        <figure class="icon-frame">
+          <img
+            src="https://raw.githubusercontent.com/fravaccaro/harbour-askare/refs/heads/main/icons/harbour-askare.svg"
+            alt="Askare on Sailfish OS" width="256" height="256" loading="eager">
         </figure>
       </div>
     </section>
@@ -289,11 +292,11 @@
       <h2 id="features-heading">What you can do</h2>
       <ul class="feature-grid">
         <li>Sign in on the server's own page, with single sign-on and two factors</li>
-        <li>Every task list, plus the All, Current, Completed and Important views</li>
-        <li>Dates, priority and completion on each task</li>
-        <li>Subtasks support</li>
-        <li>Notes written in Markdown</li>
-        <li>A reminder before a task is due</li>
+        <li>Browse your task lists and All, Current and Completed views</li>
+        <li>Set due dates, priority levels, and task status</li>
+        <li>Manage subtasks with parent progress count</li>
+        <li>Write Markdown-powered notes</li>
+        <li>Be notified with reminders</li>
       </ul>
     </section>
   </main>

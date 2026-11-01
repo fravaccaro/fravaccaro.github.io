@@ -21,7 +21,7 @@ project_entries:
     desc: Sailfish OS app — save and restore apps, data and files.
 
   - title: Tarkka
-    url: https://fravaccaro.github.io/harbour-tarkka
+    url: /tarkka/
     desc: Sailfish OS app — digital magnifying glass for accessibility.
 
   - title: Karuselli
