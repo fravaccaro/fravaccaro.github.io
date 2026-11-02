@@ -161,17 +161,15 @@
       justify-content: center;
     }
 
-    /* Holds the launcher icon until a device screenshot takes its place. */
-    .icon-frame {
-      margin: 0;
-      padding: 2rem;
+    .phone-frame {
       max-width: 220px;
       border-radius: 24px;
+      overflow: hidden;
       box-shadow: var(--shadow), 0 0 0 1px var(--border);
       background: var(--bg-card);
     }
 
-    .icon-frame img {
+    .phone-frame img {
       display: block;
       width: 100%;
       height: auto;
@@ -259,7 +257,7 @@
 
 <body>
   <header class="wrap">
-    <div class="logo">Sailfish&nbsp;OS</div>
+    <div class="logo"> </div>
   </header>
 
   <main class="wrap">
@@ -267,11 +265,11 @@
       <div class="hero-copy">
         <h1>Askare</h1>
         <p class="tagline">
-          A native Nextcloud Tasks client for Sailfish&nbsp;OS - the lists of the server you
-          already run, on the phone and over CalDAV.
+          A native Nextcloud Tasks client for Sailfish&nbsp;OS - track your endeavours right from your phone.
         </p>
         <div class="actions">
           <a class="btn btn-primary" href="/harbour-askare/">Documentation</a>
+          <a href="https://explore.transifex.com/fravaccaro/askare">Translate</a>
           <a class="btn btn-secondary" href="https://github.com/fravaccaro/harbour-askare">GitHub</a>
         </div>
         <nav class="links-row" aria-label="More resources">
@@ -281,10 +279,9 @@
         </nav>
       </div>
       <div class="hero-visual">
-        <figure class="icon-frame">
-          <img
-            src="https://raw.githubusercontent.com/fravaccaro/harbour-askare/refs/heads/main/icons/harbour-askare.svg"
-            alt="Askare on Sailfish OS" width="256" height="256" loading="eager">
+        <figure class="phone-frame">
+          <img src="https://fravaccaro.com/harbour-askare/docs/screenshots/screenshot1.png" alt="Askare on Sailfish OS"
+            width="256" height="256" loading="eager">
         </figure>
       </div>
     </section>
