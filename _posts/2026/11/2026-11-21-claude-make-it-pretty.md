@@ -36,7 +36,7 @@ I decided it was time to give AI agents a go. UI Themer was a truly awful mess o
 
 UI Themer started around the concept of themes: a single package containing icons and fonts that could be applied together. Since they were conceived as a bundle, putting "Themes" as the primary option made total sense to me.
 
-Later on, a [display density] option came along, letting users adjust the DPR and DPI of their phone. Because it was added later, where did it go? Tucked into a menu or a secondary tab, behind the main content.
+Later on, a [display density] option came along, letting users adjust the DPR and DPI of their phone. Because it was added later, where did it go? Tucked into a secondary tab, behind the main content.
 
 Without realizing it, I had imposed a hierarchy on my features — and it was completely arbitrary and chronological. In UX terms, I had built the interface around my own implementation model rather than the user's *mental model*[^2]. I had never stopped to ask: *“Why does the user open the app? What do they actually want to do?”*
 
@@ -102,7 +102,7 @@ A button that turns a document into a GIF. A lunar calendar for an email client.
 
 ### RTFG (Read the Fantastic Guidelines)
 
-LLMs are great at pumping out code, yet still clumsy with platform-specific interaction nuances (and let’s hope it stays that way). This is where you make the difference. Immerse yourself in the [guidelines] and build a coherent workflow so users feel at home rather than lost, especially on their first launch.
+LLMs are great at pumping out code, yet still clumsy with human nuances (and let’s hope it stays that way). This is where you make the difference. Immerse yourself in the [guidelines] and build a coherent workflow so users feel at home rather than lost, especially on their first launch.
 
 For Askare and Lappu, I leaned heavily on Sailfish documentation, including their very useful [common pitfalls page].
 
@@ -122,7 +122,7 @@ When your app has many options, keep them distinct and scannable. Information ov
 
 In my first draft, I tried maximizing information density. Everything fit neatly onto half a screen, but your eyes had to work overtime just to parse it, a real problem on a mobile device meant to be used on the move.
 
-What I landed on instead is a bit of progressive disclosure that maximizes the *signal-to-noise ratio*[^3]: showing only the fields that are actually populated, because “No notes” is pure noise, divided into clean sections with descriptive icons.
+What I landed on instead is a bit of progressive disclosure that maximizes the *signal-to-noise ratio*[^3]: showing only the fields that are actually populated — because “No notes” is pure noise — divided into clean sections with descriptive icons.
 
 ### Consistency is key
 
@@ -168,7 +168,7 @@ What if, instead, users could define what matters to them?
     <img src="../../../assets/posts/2026/11/askare-filter-ui.png" alt="Custom filter drawer in Askare search" style="width: 33%; display: inline-block;" />
   </a>
   <figcaption style="font-size: 0.85em; color: #666; text-align: center; margin-top: 0.5em;">
-    Saved custom filters in Askare
+    Custom filters in Askare
   </figcaption>
 </figure>
 
@@ -198,8 +198,8 @@ In Lappu, animations serve two specific purposes:
   </figcaption>
 </figure>
 
-- **Signaling scrollability:** Acting as a *visual signifier*[^5] that wide elements like tables or code blocks can be scrolled horizontally, and keeping the formatting toolbar on a single line while subtly showing that more tools sit off-screen.
 - **Reclaiming screen space:** When the on-screen keyboard is open in the editor, marking a note as a favorite or changing its category isn't the immediate priority. Gently animating those controls out of the way preserves *spatial continuity* and frees up vertical room for writing without jarring the eye.
+- **Signaling scrollability:** Acting as a *visual signifier*[^5] that wide elements like tables or code blocks can be scrolled horizontally, and keeping the formatting toolbar on a single line while subtly showing that more tools sit off-screen.
 
 ## What I’m taking with me
 
