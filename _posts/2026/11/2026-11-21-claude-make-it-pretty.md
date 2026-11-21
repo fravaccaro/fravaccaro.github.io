@@ -40,14 +40,14 @@ Later on, a [display density] option came along, letting users adjust the DPR an
 
 Without realizing it, I had imposed a hierarchy on my features — and it was completely arbitrary and chronological. In UX terms, I had built the interface around my own implementation model rather than the user's *mental model*[^2]. I had never stopped to ask: *“Why does the user open the app? What do they actually want to do?”*
 
-<figure style="clear: both; width: 100%; text-align: center;">
-  <a href="../../../assets/posts/2026/11/uithemer-tab-ui.png" style="text-decoration: none;">
-    <img src="../../../assets/posts/2026/11/uithemer-tab-ui.png" alt="Old tabbed UI in UI Themer" style="width: 33%; display: inline-block; margin-right: 10px;" />
+<figure style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin: 1.5em auto; width: 100%;">
+  <a href="../../../assets/posts/2026/11/uithemer-tab-ui.png" style="flex: 1 1 220px; max-width: 280px; text-decoration: none;">
+    <img src="../../../assets/posts/2026/11/uithemer-tab-ui.png" alt="Old tabbed UI in UI Themer" style="width: 100%; height: auto; display: block; margin: 0 auto;" />
   </a>
-  <a href="../../../assets/posts/2026/11/muoto-tile-ui.png" style="text-decoration: none;">
-    <img src="../../../assets/posts/2026/11/muoto-tile-ui.png" alt="New tile UI in Muoto" style="width: 33%; display: inline-block;" />
+  <a href="../../../assets/posts/2026/11/muoto-tile-ui.png" style="flex: 1 1 220px; max-width: 280px; text-decoration: none;">
+    <img src="../../../assets/posts/2026/11/muoto-tile-ui.png" alt="New tile UI in Muoto" style="width: 100%; height: auto; display: block; margin: 0 auto;" />
   </a>
-  <figcaption style="font-size: 0.85em; color: #666; text-align: center; margin-top: 0.5em;">
+  <figcaption style="flex-basis: 100%; font-size: 0.85em; color: #666; text-align: center; margin-top: 0.5em;">
     Old tabbed UI in UI Themer vs. new tile UI in Muoto (its successor)
   </figcaption>
 </figure>
@@ -56,14 +56,14 @@ Once I stopped stressing over missing types in a C++ class, I started thinking a
 
 You don’t necessarily want to apply an entire theme. You might only want to change the font or the display density, so who am I to decide those features are secondary? In the redesign (which became Muoto), changing fonts went from *Open the app -> browse themes -> find a theme with fonts* to *Open the app -> select Fonts -> pick a font*. Looking for display density instead? It’s right there on the main screen; you can ignore icons and fonts completely.
 
-<figure style="clear: both; width: 100%; text-align: center;">
-  <a href="../../../assets/posts/2026/11/uithemer-fonts.png" style="text-decoration: none;">
-    <img src="../../../assets/posts/2026/11/uithemer-fonts.png" alt="Old font selection inside themes in UI Themer" style="width: 33%; display: inline-block; margin-right: 10px;" />
+<figure style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin: 1.5em auto; width: 100%;">
+  <a href="../../../assets/posts/2026/11/uithemer-fonts.png" style="flex: 1 1 220px; max-width: 280px; text-decoration: none;">
+    <img src="../../../assets/posts/2026/11/uithemer-fonts.png" alt="Old font selection inside themes in UI Themer" style="width: 100%; height: auto; display: block; margin: 0 auto;" />
   </a>
-  <a href="../../../assets/posts/2026/11/muoto-fonts.png" style="text-decoration: none;">
-    <img src="../../../assets/posts/2026/11/muoto-fonts.png" alt="Direct font workflow in Muoto" style="width: 33%; display: inline-block;" />
+  <a href="../../../assets/posts/2026/11/muoto-fonts.png" style="flex: 1 1 220px; max-width: 280px; text-decoration: none;">
+    <img src="../../../assets/posts/2026/11/muoto-fonts.png" alt="Direct font workflow in Muoto" style="width: 100%; height: auto; display: block; margin: 0 auto;" />
   </a>
-  <figcaption style="font-size: 0.85em; color: #666; text-align: center; margin-top: 0.5em;">
+  <figcaption style="flex-basis: 100%; font-size: 0.85em; color: #666; text-align: center; margin-top: 0.5em;">
     Old vs. new font workflow
   </figcaption>
 </figure>
@@ -78,14 +78,14 @@ At this point, I grabbed pen and paper and mapped out the real user journeys:
 
 My goal shifted to a simple question: *Which layout minimizes the interactions needed for any of these tasks?*
 
-<figure style="clear: both; width: 100%; text-align: center;">
-  <a href="../../../assets/posts/2026/11/mdt-backup.png" style="text-decoration: none;">
-    <img src="../../../assets/posts/2026/11/mdt-backup.png" alt="Old backup-first main screen in My Data Transfer" style="width: 33%; display: inline-block; margin-right: 10px;" />
+<figure style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin: 1.5em auto; width: 100%;">
+  <a href="../../../assets/posts/2026/11/mdt-backup.png" style="flex: 1 1 220px; max-width: 280px; text-decoration: none;">
+    <img src="../../../assets/posts/2026/11/mdt-backup.png" alt="Old backup-first main screen in My Data Transfer" style="width: 100%; height: auto; display: block; margin: 0 auto;" />
   </a>
-  <a href="../../../assets/posts/2026/11/talteen-main.png" style="text-decoration: none;">
-    <img src="../../../assets/posts/2026/11/talteen-main.png" alt="New backup list main screen in Talteen" style="width: 33%; display: inline-block;" />
+  <a href="../../../assets/posts/2026/11/talteen-main.png" style="flex: 1 1 220px; max-width: 280px; text-decoration: none;">
+    <img src="../../../assets/posts/2026/11/talteen-main.png" alt="New backup list main screen in Talteen" style="width: 100%; height: auto; display: block; margin: 0 auto;" />
   </a>
-  <figcaption style="font-size: 0.85em; color: #666; text-align: center; margin-top: 0.5em;">
+  <figcaption style="flex-basis: 100%; font-size: 0.85em; color: #666; text-align: center; margin-top: 0.5em;">
     Old vs. new main screen in My Data Transfer / Talteen
   </figcaption>
 </figure>
@@ -108,14 +108,14 @@ For Askare and Lappu, I leaned heavily on Sailfish documentation, including thei
 
 When your app has many options, keep them distinct and scannable. Information overload is real: show only what is relevant and group related controls into clean sections.
 
-<figure style="clear: both; width: 100%; text-align: center;">
-  <a href="../../../assets/posts/2026/11/askare-old-details.png" style="text-decoration: none;">
-    <img src="../../../assets/posts/2026/11/askare-old-details.png" alt="Dense first draft of Askare task details" style="width: 33%; display: inline-block; margin-right: 10px;" />
+<figure style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin: 1.5em auto; width: 100%;">
+  <a href="../../../assets/posts/2026/11/askare-old-details.png" style="flex: 1 1 220px; max-width: 280px; text-decoration: none;">
+    <img src="../../../assets/posts/2026/11/askare-old-details.png" alt="Dense first draft of Askare task details" style="width: 100%; height: auto; display: block; margin: 0 auto;" />
   </a>
-  <a href="../../../assets/posts/2026/11/askare-new-details.png" style="text-decoration: none;">
-    <img src="../../../assets/posts/2026/11/askare-new-details.png" alt="Cleaner sectioned Askare task details" style="width: 33%; display: inline-block;" />
+  <a href="../../../assets/posts/2026/11/askare-new-details.png" style="flex: 1 1 220px; max-width: 280px; text-decoration: none;">
+    <img src="../../../assets/posts/2026/11/askare-new-details.png" alt="Cleaner sectioned Askare task details" style="width: 100%; height: auto; display: block; margin: 0 auto;" />
   </a>
-  <figcaption style="font-size: 0.85em; color: #666; text-align: center; margin-top: 0.5em;">
+  <figcaption style="flex-basis: 100%; font-size: 0.85em; color: #666; text-align: center; margin-top: 0.5em;">
     Old vs. new Askare task details
   </figcaption>
 </figure>
@@ -130,14 +130,14 @@ The same icons, dividers, and ordering should appear predictably across the app,
 
 (The one deliberate exception in Askare is the Priority layout, due to Nextcloud constraints that pair numeric values with named priority levels. When creating a task, you may want granular control; when viewing it later, you just want a quick sense of urgency.)
 
-<figure style="clear: both; width: 100%; text-align: center;">
-  <a href="../../../assets/posts/2026/11/askare-single-selection.png" style="text-decoration: none;">
-    <img src="../../../assets/posts/2026/11/askare-single-selection.png" alt="Askare single selection layout" style="width: 33%; display: inline-block; margin-right: 10px;" />
+<figure style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin: 1.5em auto; width: 100%;">
+  <a href="../../../assets/posts/2026/11/askare-single-selection.png" style="flex: 1 1 220px; max-width: 280px; text-decoration: none;">
+    <img src="../../../assets/posts/2026/11/askare-single-selection.png" alt="Askare single selection layout" style="width: 100%; height: auto; display: block; margin: 0 auto;" />
   </a>
-  <a href="../../../assets/posts/2026/11/askare-multi-selection.png" style="text-decoration: none;">
-    <img src="../../../assets/posts/2026/11/askare-multi-selection.png" alt="Askare multi selection layout" style="width: 33%; display: inline-block;" />
+  <a href="../../../assets/posts/2026/11/askare-multi-selection.png" style="flex: 1 1 220px; max-width: 280px; text-decoration: none;">
+    <img src="../../../assets/posts/2026/11/askare-multi-selection.png" alt="Askare multi selection layout" style="width: 100%; height: auto; display: block; margin: 0 auto;" />
   </a>
-  <figcaption style="font-size: 0.85em; color: #666; text-align: center; margin-top: 0.5em;">
+  <figcaption style="flex-basis: 100%; font-size: 0.85em; color: #666; text-align: center; margin-top: 0.5em;">
     Same ordering, same padding. The IconSwitch, typically on the left in Sailfish, is moved to the right to preserve a consistent layout.
   </figcaption>
 </figure>
@@ -145,14 +145,14 @@ The same icons, dividers, and ordering should appear predictably across the app,
 Sailfish also provides the `AttachedPage`, which I use for what feels like its most natural role: switching the main content view. Whenever you want to jump to another list, category, or tag, you know you can always swipe right and get the exact same behavior.
 
 
-<figure style="clear: both; width: 100%; text-align: center;">
-  <a href="../../../assets/posts/2026/11/askare-attachedpage.png" style="text-decoration: none;">
-    <img src="../../../assets/posts/2026/11/askare-attachedpage.png" alt="Askare AttachedPage" style="width: 33%; display: inline-block; margin-right: 10px;" />
+<figure style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin: 1.5em auto; width: 100%;">
+  <a href="../../../assets/posts/2026/11/askare-attachedpage.png" style="flex: 1 1 220px; max-width: 280px; text-decoration: none;">
+    <img src="../../../assets/posts/2026/11/askare-attachedpage.png" alt="Askare AttachedPage" style="width: 100%; height: auto; display: block; margin: 0 auto;" />
   </a>
-  <a href="../../../assets/posts/2026/11/lappu-attachedpage.png" style="text-decoration: none;">
-    <img src="../../../assets/posts/2026/11/lappu-attachedpage.png" alt="Lappu AttachedPage" style="width: 33%; display: inline-block;" />
+  <a href="../../../assets/posts/2026/11/lappu-attachedpage.png" style="flex: 1 1 220px; max-width: 280px; text-decoration: none;">
+    <img src="../../../assets/posts/2026/11/lappu-attachedpage.png" alt="Lappu AttachedPage" style="width: 100%; height: auto; display: block; margin: 0 auto;" />
   </a>
-  <figcaption style="font-size: 0.85em; color: #666; text-align: center; margin-top: 0.5em;">
+  <figcaption style="flex-basis: 100%; font-size: 0.85em; color: #666; text-align: center; margin-top: 0.5em;">
     Askare vs. Lappu AttachedPage
   </figcaption>
 </figure>
@@ -163,11 +163,11 @@ Recently, someone asked me to add dedicated sections for high-priority and upcom
 
 What if, instead, users could define what matters to them?
 
-<figure style="clear: both; width: 100%; text-align: center;">
-  <a href="../../../assets/posts/2026/11/askare-filter-ui.png" style="text-decoration: none;">
-    <img src="../../../assets/posts/2026/11/askare-filter-ui.png" alt="Custom filter drawer in Askare search" style="width: 33%; display: inline-block;" />
+<figure style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin: 1.5em auto; width: 100%;">
+  <a href="../../../assets/posts/2026/11/askare-filter-ui.png" style="flex: 1 1 220px; max-width: 280px; text-decoration: none;">
+    <img src="../../../assets/posts/2026/11/askare-filter-ui.png" alt="Custom filter drawer in Askare search" style="width: 100%; height: auto; display: block; margin: 0 auto;" />
   </a>
-  <figcaption style="font-size: 0.85em; color: #666; text-align: center; margin-top: 0.5em;">
+  <figcaption style="flex-basis: 100%; font-size: 0.85em; color: #666; text-align: center; margin-top: 0.5em;">
     Custom filters in Askare
   </figcaption>
 </figure>
@@ -184,7 +184,7 @@ Visual restraint matters just as much inside a single screen. Animations are fun
 
 In Lappu, animations serve two specific purposes:
 
-<figure style="clear: both; width: 100%; text-align: center;">
+<figure style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin: 1.5em auto; width: 100%;">
 <video controls width="33%">
   <source src="../../../assets/posts/2026/11/lappu-new-note.mp4" type="video/mp4">
   Your browser does not support the video tag.
@@ -193,7 +193,7 @@ In Lappu, animations serve two specific purposes:
   <source src="../../../assets/posts/2026/11/lappu-column.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
-  <figcaption style="font-size: 0.85em; color: #666; text-align: center; margin-top: 0.5em;">
+  <figcaption style="flex-basis: 100%; font-size: 0.85em; color: #666; text-align: center; margin-top: 0.5em;">
     Lappu animations for new notes and horizontal scrolling
   </figcaption>
 </figure>
