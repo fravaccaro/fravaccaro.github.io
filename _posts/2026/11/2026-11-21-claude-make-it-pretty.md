@@ -185,14 +185,14 @@ Visual restraint matters just as much inside a single screen. Animations are fun
 In Lappu, animations serve two specific purposes:
 
 <figure style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin: 1.5em auto; width: 100%;">
-<video controls width="33%">
-  <source src="../../../assets/posts/2026/11/lappu-new-note.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-<video controls width="33%">
-  <source src="../../../assets/posts/2026/11/lappu-column.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+  <video controls style="flex: 1 1 220px; max-width: 280px; width: 100%; height: auto; display: block;">
+    <source src="../../../assets/posts/2026/11/lappu-new-note.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <video controls style="flex: 1 1 220px; max-width: 280px; width: 100%; height: auto; display: block;">
+    <source src="../../../assets/posts/2026/11/lappu-column.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
   <figcaption style="flex-basis: 100%; font-size: 0.85em; color: #666; text-align: center; margin-top: 0.5em;">
     Lappu animations for new notes and horizontal scrolling
   </figcaption>
