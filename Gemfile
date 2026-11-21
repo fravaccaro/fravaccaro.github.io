@@ -5,6 +5,10 @@ source "https://rubygems.org"
 gem "jekyll", "~> 4.3.4"
 gem "jekyll-remote-theme"
 
+# Jekyll 4.3 and safe_yaml load these from stdlib. Ruby 3.4+ ships them as separate gems.
+gem "base64"
+gem "csv"
+
 group :jekyll_plugins do
   gem "jekyll-feed"
   gem "jekyll-paginate-v2"
