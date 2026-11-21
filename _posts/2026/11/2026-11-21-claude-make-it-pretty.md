@@ -102,7 +102,7 @@ A button that turns a document into a GIF. A lunar calendar for an email client.
 
 ### RTFG (Read the Fantastic Guidelines)
 
-LLMs are great at pumping out code, yet still clumsy with human nuances (and let’s hope it stays that way). This is where you make the difference. Immerse yourself in the [guidelines] and build a coherent workflow so users feel at home rather than lost, especially on their first launch.
+LLMs are great at pumping out code, yet still clumsy with platform-specific interaction nuances. This is where you make the difference. Immerse yourself in the [guidelines] and build a coherent workflow so users feel at home rather than lost, especially on their first launch.
 
 For Askare and Lappu, I leaned heavily on Sailfish documentation, including their very useful [common pitfalls page].
 
@@ -203,7 +203,7 @@ In Lappu, animations serve two specific purposes:
 
 ## What I’m taking with me
 
-AI can be a tremendous help (as with any tool, the outcome depends on the hand guiding it) but it still lags behind when it comes to human interaction nuances. If you are an experienced developer curious about Sailfish OS, LLMs can now take care of the heavy backend lifting and boilerplate, freeing you to focus deeply on how the app actually feels to use.
+AI can be a tremendous help (as with any tool, the outcome depends on the hand guiding it) but it still lags behind when it comes to human interaction nuances (and let’s hope it stays that way). If you are an experienced developer curious about Sailfish OS, LLMs can now take care of the heavy backend lifting and boilerplate, freeing you to focus deeply on how the app actually feels to use.
 
 My own journey in AI-assisted development has only just begun, and I’m no seasoned UI guru handing down a manifesto. Still, if I had to distill what I’ve learned so far into a few takeaways:
 - **Scaffold -> UI mockup -> Backend -> Test, test, test.** No LLM can substitute running your project on a real device to feel how it behaves in your hand.
